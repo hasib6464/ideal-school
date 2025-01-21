@@ -1,0 +1,94 @@
+/* share item */
+.new-font{
+font-size: 35px;
+}
+
+
+.navbar-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* nav different  color  */
+#home:hover{
+    color:chartreuse;
+}
+#about:hover{
+    color: red;
+}
+#facilities:hover{
+    color: grey;
+}
+#admission:hover{
+    color:black;
+}
+.nav-first-section{
+    display: flex;
+   
+}
+.nav-second-section{
+    display: flex;
+    
+}
+.nav-second-section >li{
+    list-style: none;
+    margin-left: 50px;
+    font-size:larger;
+   
+    
+}
+.nav-second-section >li a{
+    text-decoration: none;
+  
+}
+.btn-primary{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:goldenrod;
+    color: white;
+}
+/* banner section */
+.banner{
+    display: flex;
+}
+.empowering{
+    color: goldenrod;
+}
+.vision{
+    color: blueviolet;
+}
+.banner-section{
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 60px;
+  
+}
+.banner-tittle{
+    font-size:50px;
+    font-weight:600 ;
+
+}
+/* standard */
+.standard{
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+ .nav-second-section,.school{
+       display: none;
+    }
+    .navbar-section{
+justify-content: space-between;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-section{
+        margin: 20px;
+        width:80%;
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
