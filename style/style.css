@@ -3,6 +3,20 @@
 font-size: 35px;
 }
 
+.date-img{
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+}
+.date{
+    width: 140px;
+    background-color:blue;
+    padding: 7px 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -25px;
+   text-align: center;
+}
 
 .navbar-section{
     display: flex;
@@ -109,6 +123,37 @@ padding: 10px;
 background-color:lawngreen;
 border: 1px solid red;
 }
+
+/* stories */
+.stories{
+    display: flex;
+    margin-top: 30px;
+}
+.stories-right-section{
+    width: 37%;
+    margin-left: 130px;
+    
+    border: 1px solid gray;
+}
+.stories-details{
+    width: 70%;
+    margin-left: 30px;
+}
+
+.stories-card{
+    border: 1px solid blueviolet;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.fits{
+    margin-left: 20px;
+}
+.stories-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
 @media screen and (max-width:576px) {
  .nav-second-section,.school{
        display: none;
