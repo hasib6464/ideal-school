@@ -87,7 +87,28 @@ font-size: 35px;
     
     justify-content: center;
 }
-
+/* icon */
+.icon{
+   text-align: center;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   margin-top: 40px;
+    
+}
+.new-icon{
+    margin-top: 7px;
+}
+.icon-right{
+width: 30px;
+text-align: center;
+color: white;
+height: 30px;
+border-radius: 100px;
+padding: 10px;
+background-color:lawngreen;
+border: 1px solid red;
+}
 @media screen and (max-width:576px) {
  .nav-second-section,.school{
        display: none;
@@ -104,5 +125,17 @@ justify-content: space-between;
         text-align: center;
         justify-content: center;
         
+    }
+
+    /* card section */
+    .standard-section{
+        flex-direction: column;
+    }
+    .standard-card{
+        margin-left: 100px;
+      
+    }
+    .icon{
+        display: none;
     }
 }
