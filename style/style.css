@@ -2,7 +2,11 @@
 .new-font{
 font-size: 35px;
 }
-
+.main-section{
+    background-image: url('../assets/bg.png');
+    background-size:cover;
+    background-position: center;
+}
 .date-img{
     position: relative;
     border-radius: 20px 20px 0px 0px;
@@ -17,7 +21,9 @@ font-size: 35px;
     margin-top: -25px;
    text-align: center;
 }
-
+#menu-bar{
+    display: none;
+}
 .navbar-section{
     display: flex;
     justify-content: space-evenly;
@@ -139,7 +145,9 @@ border: 1px solid red;
     width: 70%;
     margin-left: 30px;
 }
-
+.new-img{
+    border-radius: 20px 20px 0px 0px;
+}
 .stories-card{
     border: 1px solid blueviolet;
     margin-left: 20px;
@@ -225,5 +233,14 @@ justify-content: space-between;
     }
     .footer{
     flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+    }
+    #menu-btn{
+        display: none;
+    }
+    #menu-bar{
+        display: block;
+        margin-right: 10px;
     }
 }
