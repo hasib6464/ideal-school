@@ -30,16 +30,16 @@ font-size: 35px;
     align-items: center;
 }
 /* nav different  color  */
-#home:hover{
-    color:chartreuse;
+#home{
+    color:blue;
 }
-#about:hover{
+#about{
     color: red;
 }
-#facilities:hover{
+#facilities{
     color: grey;
 }
-#admission:hover{
+#admission{
     color:black;
 }
 .nav-first-section{
@@ -99,7 +99,8 @@ font-size: 35px;
     border: none;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 20px 30px 30px rgba(61, 14, 171, 0.1);
+    background: linear-gradient(45deg,white,hsl(0, 0%, 100%), #f3f4f7);
+    box-shadow: 10px 20px 20px rgba(61, 14, 171, 0.1);
 }
 .standard-section{
     display: flex;
@@ -190,7 +191,9 @@ border: 1px solid red;
     margin-left: 130px;
     margin-right: 170px;
 }
-
+.line{
+    display: none;
+}
 @media screen and (max-width:576px) {
  .nav-second-section,.school{
        display: none;
@@ -215,7 +218,7 @@ justify-content: space-between;
     }
     .standard-card{
         margin-left: 100px;
-      
+
     }
     .icon{
         display: none;
@@ -242,5 +245,8 @@ justify-content: space-between;
     #menu-bar{
         display: block;
         margin-right: 10px;
+    }
+    .line{
+display: block;
     }
 }
