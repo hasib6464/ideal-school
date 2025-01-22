@@ -2,6 +2,9 @@
 .new-font{
 font-size: 35px;
 }
+.pera-color{
+    color:darkcyan;
+}
 .main-section{
     background-image: url('../assets/bg.png');
     background-size:cover;
@@ -66,6 +69,9 @@ font-size: 35px;
     border-radius: 10px;
     background-color:goldenrod;
     color: white;
+}
+.december{
+    background-color: yellowgreen;
 }
 /* banner section */
 .banner{
@@ -142,6 +148,9 @@ border: 1px solid red;
     border-radius: 20px;
     border: 1px solid gray;
 }
+.our-stories-color{
+    background: linear-gradient(90deg,rgb(250, 249, 249),white, white, rgb(249, 248, 247));
+}
 .stories-details{
     width: 70%;
     margin-left: 30px;
@@ -194,6 +203,10 @@ border: 1px solid red;
 .line{
     display: none;
 }
+.marqure{
+    font-size: x-large;
+    margin: 20px;
+}
 @media screen and (max-width:576px) {
  .nav-second-section,.school{
        display: none;
@@ -238,6 +251,14 @@ justify-content: space-between;
     flex-direction: column;
     width: 80%;
     margin-left: 20px;
+    }
+    .footer-title{
+       
+        margin-right: 220px;
+        width:80%;
+    }
+    .footer-title-img{
+margin-right: 180px;
     }
     #menu-btn{
         display: none;
